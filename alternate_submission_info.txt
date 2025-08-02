@@ -1,0 +1,15 @@
+Alternate RISC-V Submission Details
+
+Source file: unique_test.c
+
+Alternate compile command used:
+riscv-none-elf-gcc -O2 -Wall -march=rv64imac -mabi=lp64 \
+  -DUSERNAME="krishna" -DHOSTNAME="krishna-VirtualBox" \
+  unique_test.c -o unique_test
+
+Expected Output:
+RISC-V Uniqueness Check
+User: krishna
+Host: krishna-VirtualBox
+UniqueID: 0xae94267112d991cc
+GCC_VLEN: 6
